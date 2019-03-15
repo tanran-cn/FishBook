@@ -1,0 +1,13 @@
+# _*_ coding: utf-8 _*_
+__auther__ = "tanran"
+__date__ = "2019/1/29 21:21"
+
+PER_PAGE = 15
+
+SQLALCHEMY_TRACK_MODIFICATIONS = True
+
+BEANS_UPLOAD_ONE_BOOK = 0.5
+
+RECENT_BOOK_COUNT = 30
+
+BEANS_EVERY_DRIFT = 1
