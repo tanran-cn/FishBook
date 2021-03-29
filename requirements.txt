@@ -1,31 +1,37 @@
-backcall==0.1.0
+-i https://pypi.org/simple/
+backcall==0.2.0
 blinker==1.4
-certifi==2018.11.29
+certifi==2020.12.5
 chardet==3.0.4
-Click==7.0
-colorama==0.4.1
+click==7.1.2
 cymysql==0.9.13
-decorator==4.3.2
-Flask==1.0.2
-Flask-Login==0.4.1
-Flask-Mail==0.9.1
-Flask-SQLAlchemy==2.3.2
+decorator==4.4.2
+flask-login==0.4.1
+flask-mail==0.9.1
+flask-sqlalchemy==2.3.2
+flask==1.0.2
+greenlet==1.0.0 ; python_version >= '3'
 idna==2.8
-ipython==7.2.0
+importlib-metadata==3.9.1 ; python_version < '3.8'
 ipython-genutils==0.2.0
+ipython==7.2.0
 itsdangerous==1.1.0
-jedi==0.13.2
-Jinja2==2.10
-MarkupSafe==1.1.0
-parso==0.3.3
+jedi==0.18.0
+jinja2==2.11.3
+markupsafe==1.1.1
+parso==0.8.1
+pexpect==4.8.0 ; sys_platform != 'win32'
 pickleshare==0.7.5
-prompt-toolkit==2.0.8
-Pygments==2.3.1
+prompt-toolkit==2.0.10
+ptyprocess==0.7.0
+pygments==2.7.4
 requests==2.21.0
-six==1.12.0
-SQLAlchemy==1.2.17
-traitlets==4.3.2
-urllib3==1.24.1
-wcwidth==0.1.7
-Werkzeug==0.14.1
-WTForms==2.2.1
+six==1.15.0
+sqlalchemy==1.4.3
+traitlets==4.3.3
+typing-extensions==3.7.4.3 ; python_version < '3.8'
+urllib3==1.24.3
+wcwidth==0.2.5
+werkzeug==1.0.1
+wtforms==2.2.1
+zipp==3.4.1
